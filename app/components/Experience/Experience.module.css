@@ -1,0 +1,130 @@
+.experience {
+  padding: 120px 0;
+  background: linear-gradient(135deg, #ffffff 0%, #e0f2fe 100%);
+  position: relative;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #1e293b;
+  background: linear-gradient(45deg, #3b82f6, #06b6d4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.experienceCard {
+  display: flex;
+  gap: 30px;
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(59, 130, 246, 0.1);
+  border: 1px solid rgba(6, 182, 212, 0.1);
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.timelineDot {
+  width: 20px;
+  height: 20px;
+  background: linear-gradient(45deg, #3b82f6, #06b6d4);
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+}
+
+.timelineLine {
+  width: 2px;
+  height: 100px;
+  background: linear-gradient(to bottom, #3b82f6, #06b6d4);
+  margin-top: 10px;
+}
+
+.content {
+  flex: 1;
+  color: #1e293b;
+}
+
+.period {
+  color: #0891b2;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.position {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+  color: #1e293b;
+}
+
+.company {
+  font-size: 1.2rem;
+  color: #3b82f6;
+  margin-bottom: 20px;
+}
+
+.description {
+  line-height: 1.6;
+  color: #475569;
+  margin-bottom: 25px;
+}
+
+.technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tech {
+  padding: 6px 12px;
+  background: linear-gradient(45deg, #3b82f6, #06b6d4);
+  border-radius: 15px;
+  font-size: 0.8rem;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .experienceCard {
+    flex-direction: column;
+    padding: 30px 20px;
+  }
+
+  .timeline {
+    flex-direction: row;
+    margin-bottom: 20px;
+  }
+
+  .timelineLine {
+    width: 100px;
+    height: 2px;
+    margin-top: 0;
+    margin-left: 10px;
+  }
+}
