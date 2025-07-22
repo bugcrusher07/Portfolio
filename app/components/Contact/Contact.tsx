@@ -33,12 +33,12 @@ export default function Contact() {
             <p>I'm always open to discussing new opportunities and interesting projects.</p>
 
             <div className={styles.contactLinks}>
-              <a href="mailto:your.email@example.com" className={styles.contactLink}>
+              <a href="mailto:tarun.develops@gmail.com" className={styles.contactLink}>
                 <span className={styles.icon}>✉️</span>
-                your.email@example.com
+                tarun.develops@gmail.com
               </a>
               <a
-                href="https://linkedin.com/in/yourprofile"
+                href="https://linkedin.com/in/dev-tarun/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.contactLink}
@@ -47,7 +47,7 @@ export default function Contact() {
                 LinkedIn Profile
               </a>
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/bugcrusher07/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.contactLink}
@@ -64,7 +64,7 @@ export default function Contact() {
             transition={{ duration: 0.8, delay: 0.5 }}
             className={styles.contactForm}
           >
-            <form className={styles.form}>
+            {/* <form  action="https://formsubmit.co/tarun.develops@gmail.com" method="POST" className={styles.form}>
               <div className={styles.formGroup}>
                 <input type="text" placeholder="Your Name" className={styles.input} />
               </div>
@@ -77,7 +77,27 @@ export default function Contact() {
               <button type="submit" className={styles.submitButton}>
                 Send Message
               </button>
-            </form>
+            </form> */}
+            <form action="https://formsubmit.co/tarun.develops@gmail.com" method="POST" className={styles.form}>
+  <div className={styles.formGroup}>
+    <input type="text" name="name" placeholder="Your Name" required className={styles.input} />
+  </div>
+  <div className={styles.formGroup}>
+    <input type="email" name="email" placeholder="Your Email" required className={styles.input} />
+  </div>
+  <div className={styles.formGroup}>
+    <textarea name="message" placeholder="Your Message" rows={5} required className={styles.textarea}></textarea>
+  </div>
+
+  {/* Optional hidden inputs */}
+  {/* <input type="hidden" name="_captcha" value="false" />
+  <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you" /> */}
+
+  <button type="submit" className={styles.submitButton}>
+    Send Message
+  </button>
+    </form>
+
           </motion.div>
         </div>
       </div>

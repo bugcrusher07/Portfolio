@@ -22,18 +22,15 @@ export default function About() {
           <div className={styles.grid}>
             <div className={styles.textContent}>
               <p className={styles.description}>
-                I'm a passionate full-stack developer with a love for creating innovative digital solutions. With
-                expertise in modern web technologies, I bring ideas to life through clean, efficient code and stunning
-                user experiences.
+I am a full-stack developer with a strong focus on building scalable web applications and AI-powered tools. With experience in React, Next.js, TypeScript, and backend frameworks like Express.js and FastAPI, I love creating solutions that are both technically robust and user-centric.
               </p>
               <p className={styles.description}>
-                My journey in development started with curiosity and has evolved into a dedication to crafting
-                applications that not only function flawlessly but also inspire and delight users.
+               From leading university tech projects to developing real-world products during my internships, I thrive on solving complex problems and bringing ideas to life. I’m passionate about clean code, collaborative teamwork, and delivering meaningful impact through technology..
               </p>
               <div className={styles.skills}>
                 <h3>Skills & Technologies</h3>
                 <div className={styles.skillGrid}>
-                  {["React", "Next.js", "TypeScript", "Node.js", "Python", "MongoDB", "PostgreSQL", "AWS"].map(
+                  {["React", "Next.js", "TypeScript", "Express.js", "FastAPI", "Python", "PostgreSQL", "MongoDB", "AWS", "Vercel","Unity","Firebase"].map(
                     (skill, index) => (
                       <motion.span
                         key={skill}

@@ -32,9 +32,9 @@ export default function Experience() {
             <div className={styles.timelineLine}></div>
           </div>
           <div className={styles.content}>
-            <div className={styles.period}>2023 - Present</div>
-            <h3 className={styles.position}>Full Stack Developer</h3>
-            <h4 className={styles.company}>Your Company Name</h4>
+            <div className={styles.period}>2024 - 2025</div>
+            <h3 className={styles.position}>Full Stack Developer ( Intern )</h3>
+            <h4 className={styles.company}>NEW EIC</h4>
             <p className={styles.description}>
               Developed and maintained web applications using React, Node.js, and modern technologies. Collaborated with
               cross-functional teams to deliver high-quality software solutions. Implemented responsive designs and

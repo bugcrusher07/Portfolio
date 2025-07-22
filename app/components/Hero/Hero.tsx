@@ -25,12 +25,11 @@ export default function Hero() {
         >
           <h1 className={styles.title}>
             <span className={styles.greeting}>Hello, I'm</span>
-            <span className={styles.name}>Your Name</span>
-            <span className={styles.role}>Full Stack Developer</span>
+            <span className={styles.name}>Tarun Singh</span>
+            <span className={styles.role}>Full Stack and Game Dev</span>
           </h1>
           <p className={styles.description}>
-            I create amazing digital experiences with cutting-edge technologies. Passionate about building innovative
-            solutions that make a difference.
+            I enjoy tackling real-world challenges through creative problem-solving — whether it's building practical solutions or crafting engaging games. I'm driven by curiosity, a love for learning, and the satisfaction of turning ideas into something people can actually use.
           </p>
           <div className={styles.buttons}>
             <motion.a

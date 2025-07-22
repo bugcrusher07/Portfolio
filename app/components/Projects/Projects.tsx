@@ -9,24 +9,25 @@ import styles from "./Projects.module.css"
 const featuredProjects = [
   {
     id: 1,
-    title: "E-Commerce Platform",
-    description: "Full-stack e-commerce solution with modern UI",
-    image: "/placeholder.svg?height=300&width=400",
-    tech: ["React", "Node.js", "MongoDB"],
+    title: "AI Tools Suite ( AI hub )",
+    description: "Full-stack application featuring a variety of tools powered by Gemini API with modern UI",
+    image: "/AI_Tools.png?height=300&width=400",
+    tech: ["Next.js", "Gemini", "React","Typescript","Express","MongoDB","AWS Elastic Beanstalk"],
   },
   {
     id: 2,
-    title: "AI Chat Application",
-    description: "Real-time chat app with AI integration",
-    image: "/placeholder.svg?height=300&width=400",
-    tech: ["Next.js", "OpenAI", "Socket.io"],
+    title: "ATS Resume Analyzer",
+    description: "An AI-driven resume analyzer for ATS scoring, built with React and FastAPI using scikit-learn models.",
+    image: "/resume.png?height=300&width=400",
+    tech: ["React", "FastAPI", "Python","scikit-learn"],
   },
   {
     id: 3,
-    title: "Data Visualization Dashboard",
-    description: "Interactive dashboard for data analytics",
-    image: "/placeholder.svg?height=300&width=400",
-    tech: ["React", "D3.js", "Python"],
+    title: "Monster Hunter 3D",
+description: "A Unity-powered 3D WebGL game where players hunt monsters — built with Unity3D and deployed via Firebase Hosting for seamless web play.",
+
+    image: "/monster.png?height=300&width=400",
+    tech: ["Unity3D","Firebase"],
   },
 ]
 

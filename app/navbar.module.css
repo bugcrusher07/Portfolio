@@ -1,0 +1,53 @@
+.rootContainer{
+  margin:40px 450px;
+}
+.navBarLeft >h1{
+  color:white;
+  font-family: "Aeonik", sans-serif;
+  font-size:23px;
+}
+
+.navBarContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #BFDBFE; */
+  /* background:linear-gradient(to right,#6DD5FA,#FFFFFF,#2980B9); */
+  background-color: black;
+  border-radius: 100px;
+  height:50px;
+}
+
+.navBarLeft{
+  padding:0px 10px;
+  display: flex;
+  margin-left:20px;
+  /* background-color:#DBEAFE; */
+  background-color: black;
+  border:solid black;
+  border-radius: 40px;
+}
+
+.navBarRight{
+  display: flex;
+  margin-right:20px;
+  /* background-color: green; */
+}
+.navBarRight > a{
+  font-family:Nevis-Bond;
+  font-size:19px;
+  margin:0px 10px;
+  color:white;
+  transform: scale(.9,.9);
+}
+.navBarRight > a:hover{
+ cursor: pointer;
+  text-decoration:underline;
+  text-underline-offset: 6px;
+}
+
+@media screen and (max-width:1300){
+  .navBarLeft >h1 {
+    font-size:5px;
+  }
+}
