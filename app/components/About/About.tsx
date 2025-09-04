@@ -53,7 +53,7 @@ I am a full-stack developer with a strong focus on building scalable web applica
               className={styles.imageContainer}
             >
               <div className={styles.profileImage}>
-                <img src="/placeholder.svg?height=400&width=400" alt="Profile" />
+                <img src="/profile_pic_innit.jpg?height=400&width=400" alt="Profile" />
               </div>
             </motion.div>
           </div>
